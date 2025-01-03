@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    display: flex; justify-content:center; height: 100vh;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.todo-app {
+width: 900px;
+box-sizing: border-box;
+background-color:#ffffff;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+padding: 20px;
+border-radius: 10px;
+align-items: center;
+
+}
+
+body>h1 {
+text-align: center;
+font-size: 2rem;
+font-weight: bold;
+padding-bottom: 20px;
+box-sizing: border-box;
+align-items: center;
+}
+
+.todo-form {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid#ccc;
+    border-radius: 5px;
+    padding-inline: 10px;
+    place-content: Neue Augabe hinzufügen;
+    background-color: #0078d7;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-inline: 10px 20px;
+    box-sizing: border-box;
+}
+
+.todo-form:hover {
+    background-color: #005bb5;
+    box-sizing: border-box;
+}
+
+.todo-button {
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.todo-list {
+    list-style: none;
+    color: #ffffff;
+    background-color: #d9534f;
+    box-sizing: border-box;
+
+}
+.todo-list>li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+    padding-inline: 10px;
+    padding-inline-start: 5px;
+    padding-inline-end: 10px;
+    box-sizing: border-box;
+}
+
+.todo-list>li:hover {
+background-color: #c9302c;
+box-sizing: border-box;
+}
+
+.todo-info {
+text-align: center;
+font-size: 0.9rem;
+color: #666666;
+margin-top: 20px;
+box-sizing: border-box;
+}
+
